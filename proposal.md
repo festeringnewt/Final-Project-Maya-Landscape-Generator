@@ -2,6 +2,8 @@
 
 This code will simulate the popular game snake using pygame.
 
+[Here is the link to my repository.](https://github.com/festeringnewt/Final-Project-Snake-Game)
+
 ## Features
 
 - The user will be able to change the direction of the snake character
