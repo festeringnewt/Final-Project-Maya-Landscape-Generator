@@ -1,48 +1,42 @@
-# Snake Game
+# Landscape Generator
 
-This code will simulate the popular game snake using pygame.
+This code will be used in Autodesk Maya to generate a random mountain landscape.
 
-[Here is the link to my repository.](https://github.com/festeringnewt/Final-Project-Snake-Game)
+[Here is the link to my repository.](https://github.com/festeringnewt/Final-Project-Maya-Landscape-Generator)
 
 ## Features
 
-- The user will be able to change the direction of the snake character
-- The snake's tail will get longer as the snake consumes more particles
-- The game will keep track of how many particles the snake has consumed
-- The color(s) of the snake character will change based on how many particles the player has consumed.
-- If I can, the snake character will be able to go off one side of the screen and appear at the other side
+- By running the script, the code will generate a mountain lanscape from a plane
+- The code will ask the user's input for plane width, height, peaks, and smoothness
 
 ## Challenges
 
-- I will need to research more pygame features
-- I will need to know how to keep track of where surfaces are on the screen
-- I will need to know how to create a screen grid for the game
-- I will need to know how to make a win/lose loop in my game
+- I have no experience scripting in Maya, so I will have to learn from scratch.
+- I will have to read the maya.cmds cibrary documentation as well as do my own research on how to use proceduralism in maya.
 
 ## Outcomes
 
 ### Ideal Outcome
-The ideal outcome is to have a functioning snake game that displays score, a lose screen, and a win screen. The game should run smoothly and be aesthetically pleasing.
+The ideal outcome is to be able to run the script in an empty Maya workspace, and will generate an aesthetically pleasing mountain landscape based on the user's input.
 
 ### Minimal Viable Outcome
-The game should have all the basic functions of snake, the player being able to control the snake and the tail getting longer as teh player consumes more particles, and particles being randomly generated on the screen.
+This is a relatively short script, and most of the work I will be doing is learning the maya.cmds library, so my minimum viable outcome is just for my script to be able to properly generate the procedural art.
 
 ## Milestones
 
 ### Week 1
 - Create Project Proposal
-- Start researching pygame functions
+- Start researching python for maya
 
 ### Week 2
-- Create pygame environment
-- Start mapping out functions and pseudocode
+- Read and study Autodesk Maya python documentation
+- Practice small projects
 
 ### Week 3
-- create snake character
+- Begin pseudocode and testing
 
 ### Week 4
-- generate particles
-- score system?
+- Create base code
 
 ### Week 5
-- finishing touches
+- Debug and add extra feautures (if possible)
