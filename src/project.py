@@ -7,13 +7,13 @@ maxheight = 15
 land = cmds.polyPlane(sx = landsub, sy = landsub, 
                       w = landsize, h = landsize)
 vertex_nb = cmds.polyEvaluate(v=True)
-vertex_Count = range(vertex_nb)
+vertex_Count = list(range(vertex_nb))
 
 values = []
 high_values = [random.triangular(0,1,0)
-                for i in range(vertex_nb/10)]
+                for i in range(int(vertex_nb/10))]
 low_values = [random.uniform(0,0.3)
-              for i in range(vertex_nb/2)]
+              for i in range(int(vertex_nb/2))]
 values = low_values + high_values
 values_count = len(values)
 SEED = 448
