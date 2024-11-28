@@ -4,6 +4,8 @@ import random
 def generate_terrain(landsub, landsize, maxheight):
     land = cmds.polyPlane(sx = landsub, sy = landsub, 
                       w = landsize, h = landsize)
+    cmds.displaySmoothness(land[0], divisionsU=2, 
+    divisionsV=2, pointsWire=4, pointsShaded=1, polygonObject=3)
     vertex_nb = cmds.polyEvaluate(v=True)
     vertex_Count = list(range(vertex_nb))
     
