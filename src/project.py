@@ -1,7 +1,7 @@
 import maya.cmds as cmds
 import random
 
-def generate_terrain(landsub, landsize, maxheight):
+def generate_terrain(landsize, landsub, maxheight):
     land = cmds.polyPlane(sx = landsub, sy = landsub, 
                       w = landsize, h = landsize)
     cmds.displaySmoothness(land[0], divisionsU=2, 
@@ -33,7 +33,7 @@ def main():
     landsize = int(input("Size of land: "))
     landsub = int(input("Subdivisions: "))
     maxheight = int(input("Max Height: "))
-    generate_terrain(landsub, landsize, maxheight)
+    generate_terrain(landsize, landsub, maxheight)
 
 if __name__ == "__main__":
     main()
